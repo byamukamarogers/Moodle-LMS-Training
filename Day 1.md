@@ -24,6 +24,9 @@ sudo reboot
 
 ## 3. Step 2: Install Apache, PHP, and Extensions
 ```bash
+sudo add-apt-repository ppa:ondrej/php # Press enter when prompted.
+sudo apt update
+
 sudo apt install apache2 -y
 
 sudo apt install php8.2 php8.2-cli php8.2-fpm libapache2-mod-php8.2 \
