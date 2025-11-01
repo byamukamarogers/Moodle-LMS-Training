@@ -87,6 +87,8 @@ ping lms.example.com
 
 ## 6. Step 5: Download and Setup Moodle
 ```bash
+For more details follow the official documentation on the link below
+**https://docs.moodle.org/501/en/Step-by-step_Installation_Guide_for_Ubuntu**
 cd /var/www/html
 sudo wget https://download.moodle.org/download.php/direct/stable500/moodle-latest-500.tgz
 sudo tar -zxvf moodle-latest-500.tgz
